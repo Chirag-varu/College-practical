@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    /* background-color: #f0f0f0; Set your desired background color or use a background image */
+    background-image: url('https://image.shutterstock.com/image-photo/abstract-colorful-gradient-background-design-260nw-2112796256.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+    /* background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    background-color: rgba(255, 255, 255, 0.19); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #ffffff;
+}
+
+p {
+    color: #ffffff;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #007bff;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
